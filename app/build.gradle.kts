@@ -39,6 +39,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    viewBinding {
+        enable = true
+    }
     buildFeatures {
         compose = true
     }
@@ -108,4 +111,6 @@ dependencies {
     implementation ("androidx.hilt:hilt-navigation-compose:1.2.0")
 
     implementation("androidx.palette:palette-ktx:1.0.0")
+
+    implementation ("com.github.Breno-Christovam-IESB:kt-login-module:0.0.1")
 }
